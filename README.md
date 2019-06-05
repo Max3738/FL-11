@@ -1,1 +1,1 @@
-this is repository for epam training
+it is repository for epam training
