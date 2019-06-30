@@ -87,13 +87,13 @@ header nav ul {
 header nav ul li {
 	display: inline-block;
 	padding: 0.5vw 6vw;
-	border: 2px solid #FFFFFF;
+	border: 0.058vw solid #FFFFFF;
 	color: #FFFFFF;
 	font-size: 2vw;
 }
 
 header nav ul li:hover {
-	border: 2px solid #097774;
+	border: 0.058vw  solid #097774;
 	color: #097774;
 }
 
@@ -162,8 +162,8 @@ main .main-content article h5 {
 main .main-content .like {
 	font-size: 1vw;
 	color: #FFFFFF;
-	background-color: #000000;
-	border: 2px solid #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.459);
+	border: 0.058vw solid #FFFFFF;
 	padding: 0.2vw 0.5vw;
 }
 
@@ -173,7 +173,7 @@ main .main-content .date {
 }
 
 main .main-content .like:hover {
-	border: 2px solid #097774;
+	border: 0.058vw  solid #097774;
 	color: #097774;
 	background-color: rgba(0, 0, 0, 0.76);
 }
@@ -250,12 +250,12 @@ main .main-content .right-main-content .date {
 	font-size: 1vw;
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, 0.459);
-	border: 2px solid #FFFFFF;
+	border: 0.058vw solid #FFFFFF;
 	padding: 0.2vw 0.5vw;
 }
 
 .explore-nav .explore-card .like:hover {
-	border: 2px solid #097774;
+	border: 0.058vw  solid #097774;
 	color: #097774;
 	background-color: rgba(0, 0, 0, 0.76);
 }
@@ -275,7 +275,7 @@ button.load-news {
 	padding: 0.2vw 5vw 0.2vw 5vw;
 	color: #FFFFFF;
 	font-size: 1.0vw;
-	border-radius: 5px;
+	border-radius: 0.058vw;
 }
 
 button.load-news:hover {
@@ -308,7 +308,7 @@ button.load-news:hover {
 	width: 9vw;
 	background-color: #F0F0F0;
 	font-size: 1.0vw;
-	border: 1.5px solid #000000;
+	border: 0.058vw solid #000000;
 	padding: 0.4vw;
 }
 
@@ -322,7 +322,7 @@ input[type="email"]::placeholder {
 	padding: 0.5vw 1vw 0.5vw 1vw;
 	color: #FFFFFF;
 	font-size: 1.0vw;
-	border-radius: 5px;
+	border-radius: 0.058vw;
 	display: inline-block;
 }
 
@@ -347,6 +347,7 @@ footer nav ul li {
 	list-style: none;
 	padding: 0.5vw;
 }
+
 @media (max-width: 600px) {
     header nav {
         margin-top: 2.5vw;
