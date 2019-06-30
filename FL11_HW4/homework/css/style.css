@@ -180,6 +180,7 @@ main .main-content .like:hover {
 
 main .main-content .left-main-content {
 	position: relative;
+	max-width: 45vw;
 }
 
 main .main-content .left-main-content .like {
@@ -196,6 +197,7 @@ main .main-content .left-main-content .date {
 
 main .main-content .right-main-content {
 	position: relative;
+	max-width: 45vw;
 }
 
 main .main-content .right-main-content .like {
@@ -221,11 +223,13 @@ main .main-content .right-main-content .date {
 .explore-nav {
 	padding-top: 2vw;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
 .explore-nav .explore-card {
 	position: relative;
+	flex-basis: 100px;
 }
 
 .explore-nav .explore-card span {
@@ -360,5 +364,22 @@ footer nav ul li {
     }
     header .header-top .logo {
         padding: 5px 0 0 6px;
-    }
+	}
+	main .main-content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.explore-nav .explore-card {
+		flex-basis: 100px;
+	}
+	.explore-nav img {
+		width: 25vw;
+	}
+	.explore-nav .explore-card .like {
+		left: 20vw;
+	}
+	.explore-nav .explore-card span {
+		left: 5vw;
+	}
+
   }
