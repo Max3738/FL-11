@@ -347,3 +347,17 @@ footer nav ul li {
 	list-style: none;
 	padding: 0.5vw;
 }
+@media (max-width: 600px) {
+    header nav {
+        margin-top: 2.5vw;
+    }
+    header .content {
+        margin-top: 4vw;
+    }
+    header .header-top .user a {
+         padding: 5px 0 0 6px;
+    }
+    header .header-top .logo {
+        padding: 5px 0 0 6px;
+    }
+  }
