@@ -325,6 +325,14 @@ main .main-left .main-item img:hover {
 		max-width: 400px;
 		width: 100%;
 	}
+	main .main-item:nth-child(even) h2 {
+   		text-align: left;
+  	        margin-left: 0px;
+    		width: 98%;
+	}
+	main .main-item:nth-child(even) h3 {
+    		text-align: left;
+   	}
 	main .main-item .description-item h3 {
 		padding: 25px 25px 90px 25px;
 	}
